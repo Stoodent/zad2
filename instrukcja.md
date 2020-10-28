@@ -23,6 +23,7 @@ Przykład kodu html i jego interpretacja w przeglądarce:
 </body>
 </html>
 ```
+![](image--000.png)
 
 Przykład kodu Latex i wygenerowanego pliku w formacie pdf
 
@@ -41,6 +42,7 @@ Przykład kodu Latex i wygenerowanego pliku w formacie pdf
 \end{letter}
 \end{document}
 ```
+
 
 Przykład kodu XML – fragment dokumentu SVG (Scalar Vector Graphics)
 ```xml
@@ -108,14 +110,17 @@ opis w języku polskim.
 ### Definiowanie nagłówków
 W tym celu używamy znaku kratki
 Lewe okno zawiera kod źródłowy – prawe -podgląd przetworzonego tekstu
+![](image--003.png)
 
 ### Definiowanie list
+![](image--004.png)
 Listy numerowane definiujemy wstawiając numery kolejnych pozycji zakończone kropką.
 
 Listy nienumerowane definiujemy znakami: *,+,-
 ### Wyróżnianie tekstu
-
+![](image--005.png)
 ### Tabele
+![](image--006.png)
 Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znaku dwukropka:
 
 ### Odnośniki do zasobów
@@ -127,17 +132,18 @@ Centrowanie zawartości kolumn realizowane jest poprzez odpowiednie użycie znak
 ### Obrazki
 \!\[alt text](https://server.com/images/icon48.png "Logo 1") – obrazek z zasobów
 internetowych
-![](logo.png) – obraz z lokalnych zasobów
+\!\[](logo.png) – obraz z lokalnych zasobów
 
 ### Kod źródłowy dla różnych języków programowania 
-
+![](image--007.png)
 ### Tworzenie spisu treści na podstawie nagłówków 
-
+![](image--008.png)
 ## Edytory dedykowane
 Pracę nad dokumentami w formacie Markdown( rozszerzenie md) można wykonywać w
 dowolnym edytorze tekstowym. Aczkolwiek istnieje wiele dedykowanych narzędzi
 1. Edytor Typora - https://typora.io/
 2. Visual Studio Code z wtyczką „markdown preview”
+![](image--009)
 
 ## Pandoc – system do konwersji dokumentów Markdown do innych formatów
 
@@ -156,6 +162,9 @@ składu Latex (np. Na windows najlepiej sprawdzi się Miktex https://miktex.org/
 Gdyby podczas konwersji do formatu pdf pojawił się komunikat o niemożliwości
 znalezienia programu pdflatex rozwiązaniem jest wskazanie w zmiennej środowiskowej
 PATH miejsca jego położenia
+![](image--010.png)
+![](image--011.jpg)
+![](image--012.png)
 
 Pod adresem (https://gitlab.com/mniewins66/templatemn.git) znajduje się przykładowy plik
 Markdown z którego można wygenerować prezentację w formacie pdf wykorzystując
